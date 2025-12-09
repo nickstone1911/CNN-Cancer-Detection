@@ -1,4 +1,4 @@
-\# Histopathologic Cancer Detection
+# Histopathologic Cancer Detection
 
 
 
@@ -14,7 +14,7 @@ Competition: https://www.kaggle.com/competitions/histopathologic-cancer-detectio
 
 
 
-\## 1. Problem Overview
+## 1. Problem Overview
 
 
 
@@ -24,9 +24,9 @@ The task is a \*\*binary classification\*\* problem:
 
 
 
-\- `label = 1` → image contains metastatic tissue  
+- `label = 1` → image contains metastatic tissue  
 
-\- `label = 0` → image is normal
+- `label = 0` → image is normal
 
 
 
@@ -38,15 +38,15 @@ The goal is to build a model that can accurately classify these images and gener
 
 
 
-\## 2. Data \& Preprocessing
+## 2. Data \& Preprocessing
 
 
 
-\- Training data: labeled image patches with `train\_labels.csv`
+- Training data: labeled image patches with `train\_labels.csv`
 
-\- Test data: unlabeled image patches used for final evaluation
+- Test data: unlabeled image patches used for final evaluation
 
-\- Key steps:
+- Key steps:
 
 &nbsp; - Load images using a custom `Dataset` + `DataLoader`
 
@@ -60,13 +60,13 @@ The goal is to build a model that can accurately classify these images and gener
 
 
 
-\## 3. Model
+## 3. Model
 
 
 
-\- Framework: \*\*PyTorch\*\*
+- Framework: \*\*PyTorch\*\*
 
-\- Approach:
+- Approach:
 
 &nbsp; - Start from a pretrained CNN (e.g., ResNet)
 
@@ -86,7 +86,7 @@ The goal is to build a model that can accurately classify these images and gener
 
 
 
-\## 4. Training \& Evaluation
+## 4. Training \& Evaluation
 
 
 
@@ -94,11 +94,11 @@ The notebook includes:
 
 
 
-\- Training loop with epoch-wise logging
+- Training loop with epoch-wise logging
 
-\- Validation AUC and loss tracking
+- Validation AUC and loss tracking
 
-\- Basic error analysis (e.g., confusion matrix, classification report)
+- Basic error analysis (e.g., confusion matrix, classification report)
 
 
 
